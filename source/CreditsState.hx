@@ -83,9 +83,9 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['NO FILES APK'],
                         ['Edd34r',		'edd',		'coder extra/repo fix',					'https://youtube.com/c/Edd34rUWU',	'FFFF5E00'],
-                        ['Random',		'random',		'creador del Port en apk',					'https://youtube.com/channel/UC9ZKGvBODHIj0YL1xgtbLcA',	'FFFF7300'],
+                        ['Random',		'random',		'creador del Port en apk',					'https://youtube.com/channel/UC9ZKGvBODHIj0YL1xgtbLcA',	'FF8C6E63'],
                         ['Psych Engine Android'],
-			['Saw (M.A. Jigsaw)',	'saw',				'Main Programmer of Psych Engine Android',					'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ', 	'FF8C6E63'],
+			['Saw (M.A. Jigsaw)',	'saw',				'Main Programmer of Psych Engine Android',					'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ', 	'FFFF0004'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
