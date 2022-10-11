@@ -81,7 +81,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android'],
+			['NO FILES APK'],
+                        ['Edd34r',		'edd',		'coder extra/repo fix',					'https://youtube.com/c/Edd34rUWU',	'FFFF5E00'],
+                        ['Random',		'random',		'creador del Port en apk',					'https://youtube.com/channel/UC9ZKGvBODHIj0YL1xgtbLcA',	'FFFF7300'],
+                        ['Psych Engine Android'],
 			['Saw (M.A. Jigsaw)',	'saw',				'Main Programmer of Psych Engine Android',					'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ', 	'F73838'],
 			[''],
 			['Psych Engine Team'],
