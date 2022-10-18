@@ -222,6 +222,7 @@ class ChartingState extends MusicBeatState
 				gfVersion: 'gf',
 				speed: 1,
 				stage: 'stage',
+				isRing : false ,
 				validScore: false
 			};
 			addSection();
@@ -407,6 +408,17 @@ class ChartingState extends MusicBeatState
 		UI_songTitle = new FlxUIInputText(10, 10, 70, _song.song, 8);
 		UI_songTitle.focusGained = () -> FlxG.stage.window.textInputEnabled = true;
 		blockPressWhileTypingOn.push(UI_songTitle);
+		
+		var ringCheck = new FlxUICheckBox(10, 45, null, null, "ringMechanic", 100);
+		ringCheck.checked = (_song.isRing == true);
+		ringCheck.callback = function()
+		{
+			_song.isRing = false;
+			if (ringCheck.checked)
+			{
+				_song.isRing = true;		
+			}
+			updateGrid();
 		
 		var check_voices = new FlxUICheckBox(10, 25, null, null, "Has voice track", 100);
 		check_voices.checked = _song.needsVoices;
